@@ -1,0 +1,15 @@
+.card {
+    background-color: #A0FBB4;
+}
+
+.card_title {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+  
+.card_values {
+    font-size: 15px;
+    color: #666;
+  }
+  

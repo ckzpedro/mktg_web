@@ -1,8 +1,8 @@
-.placeholder{
+.sidebar_box{
     position: fixed;
     top: 64px;
     right: 0;
-    width: 400px; 
+    width: 465px; 
     height: 100%; 
     background-color: #ffffff;
     border-left: 1px solid #ddd;
