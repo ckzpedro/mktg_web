@@ -1,16 +1,14 @@
 .card {
-    margin: 10px;
     border-radius: 25px;
-    padding: 10px;
+    padding: 16px;
     background-image: linear-gradient(to right, #E3FDE9 0%, #DFF9E5 37%, #D0E0D4 100%);
     height: 79px;
     width: 409px;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
 }
 
 .card_title {
     font-size: 15px;
-    margin-bottom: 10px;
     font-weight:bolder;
 }
 
@@ -18,4 +16,3 @@
     font-size: 15px;
     color: #666;
 }
-  

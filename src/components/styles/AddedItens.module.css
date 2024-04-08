@@ -3,8 +3,16 @@
     border-radius: 20px;
     position: fixed;
     width: 465px;
+    overflow: auto;
     height: 444px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);;
+}
+
+
+.itensbox_title_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .itensbox_title{
@@ -20,7 +28,22 @@
     cursor: pointer;
     margin-left: 72px;
     border: none;
+    transition-duration: 1s;
     background-color: white;
+}
+
+::-webkit-scrollbar{
+    width: 16px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #D5D5D5;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #90E6A3;
+    border-radius: 20px;
 }
 
 .morebutton{
@@ -34,6 +57,9 @@
 
 .list{
     margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .itemList{
