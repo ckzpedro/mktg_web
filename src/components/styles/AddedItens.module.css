@@ -32,27 +32,14 @@
     background-color: white;
 }
 
-::-webkit-scrollbar{
-    width: 16px;
-}
-
-::-webkit-scrollbar-track{
-    box-shadow: inset 0 0 5px #D5D5D5;
-    border-radius: 20px;
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: #90E6A3;
-    border-radius: 20px;
-}
 
 .morebutton{
     cursor: pointer;
     border: none;
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    vertical-align: middle;
 }
 
 .list{
@@ -65,4 +52,20 @@
 .itemList{
     font-size: 24px;
     margin-bottom: 16px;
+}
+
+::-webkit-scrollbar{
+    width: 16px;
+    height: 178px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #D5D5D5;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    box-shadow: 0 0 5px #D5D5D5;
+    background-color: #90E6A3;
+    border-radius: 20px;
 }

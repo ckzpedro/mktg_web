@@ -12,7 +12,7 @@ export default function CardList({ title, quantity, image, cost }: CardProps) {
 
   return (
     <div className={styles.card}>
-      <h2 className={styles.card_title}>{title}</h2>
+      <h1 className={styles.card_title}>{title}</h1>
       <p className={styles.card_values}>{`${quantity} x ${cost}`}</p>
     </div>
   )
