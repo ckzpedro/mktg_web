@@ -10,31 +10,32 @@ export default function AddedItens() {
     {
       title: "Item 2",
       quantity: "2",
-      image: "",
+      image: "https://placehold.co/70x100",
       cost: "R$:valor,00",
+
     },
     {
       title: "Item 2",
       quantity: "3",
-      image: "",
+      image: "https://placehold.co/70x100",
       cost: "R$:valor,00",
     },
     {
       title: "Item 3",
       quantity: "5",
-      image: "",
+      image: "https://placehold.co/70x100",
       cost: "R$:valor,00",
     },
     {
-      title: "Item 3",
+      title: "Item 4",
       quantity: "5",
-      image: "",
+      image: "https://placehold.co/70x100",
       cost: "R$:valor,00",
     },
     {
-      title: "Item 3",
+      title: "Item 5",
       quantity: "5",
-      image: "",
+      image: "https://placehold.co/70x100",
       cost: "R$:valor,00",
     },
   ];
