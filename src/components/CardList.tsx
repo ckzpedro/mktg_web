@@ -1,4 +1,5 @@
-import styles from './styles/CardList.module.css'; 
+import styles from './styles/CardList.module.css';
+import { X } from '@phosphor-icons/react'
 
 interface CardProps {
     title: string;
@@ -17,6 +18,10 @@ export default function CardList({ title, quantity, image, cost }: CardProps) {
         <h1 className={styles.card_title}>{title}</h1>
         <p className={styles.card_values}>{`${quantity} x ${cost}`}</p>
       </div>
+      <button className={styles.delete_button}>
+        <X size={32}/>
+      </button>
+
     </div>
   )
 }

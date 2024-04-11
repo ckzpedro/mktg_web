@@ -25,3 +25,14 @@
     font-size: 15px;
     color: #666;
 }
+
+.delete_button{
+    margin-left: 150px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.delete_button:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.20);
+}
