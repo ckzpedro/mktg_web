@@ -30,6 +30,7 @@
     margin-left: 150px;
     cursor: pointer;
     transition-duration: 1s;
+    background-color: transparent;
 }
 
 .delete_button:hover{

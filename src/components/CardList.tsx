@@ -19,7 +19,7 @@ export default function CardList({ title, quantity, image, cost }: CardProps) {
         <p className={styles.card_values}>{`${quantity} x ${cost}`}</p>
       </div>
       <button className={styles.delete_button}>
-        <X size={32}/>
+        <X size={32} color="#74857C"/>
       </button>
 
     </div>

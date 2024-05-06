@@ -5,9 +5,8 @@
     width: 465px;
     overflow: auto;
     height: 444px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
-
 
 .itensbox_title_box{
     display: flex;
@@ -29,22 +28,12 @@
     margin-left: 72px;
     border: none;
     transition-duration: 1s;
-    background-color: white;
+    background-color: transparent;
 }
 
 .button:hover{
     color: rgb(0, 0, 0);
     transform: scale(1.20);
-}
-
-
-.morebutton{
-    cursor: pointer;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    margin: auto;
-    vertical-align: middle;
 }
 
 .list{
@@ -54,9 +43,41 @@
     align-items: center;
 }
 
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.list{
+    animation: fadeIn 1s ease forwards;
+}
+
 .itemList{
     font-size: 24px;
     margin-bottom: 16px;
+}
+
+.placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: top ;
+    animation: fadeIn 1s ease forwards;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+}
+
+.image_text{
+    font-size: 17px;
 }
 
 ::-webkit-scrollbar{

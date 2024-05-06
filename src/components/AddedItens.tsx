@@ -1,10 +1,11 @@
 import styles from "./styles/AddedItens.module.css";
-import { Minus, Plus, DotsThree } from "@phosphor-icons/react";
+import { Minus, Plus} from "@phosphor-icons/react";
 import { useState } from "react";
 import CardList from "./CardList";
+import listImage from "../img/Checklist-bro.svg"
 
 export default function AddedItens() {
-  const [showItems, setShowItems] = useState(true);
+  const [showItems, setShowItems] = useState(false);
 
   const list = [
     {
@@ -64,10 +65,13 @@ export default function AddedItens() {
         </ul>
       )}
       {!showItems && (
-        <button className={styles.morebutton}>
-          <DotsThree size={32} />
-        </button>
+        <div className={styles.placeholder}>
+          <img className={styles.image} src={listImage}/>
+          <p className={styles.image_text}>Os Itens da sua lista estão aqui!</p>
+          <p className={styles.image_text}>Clique no <Plus size={20}/> para ver o que você já tem adicionado</p>
+        </div>
       )}
     </div>
   );
 }
+//55
