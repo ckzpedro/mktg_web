@@ -1,5 +1,5 @@
-import styles from './styles/Sidebar.module.css'
 import { CalendarBlank } from '@phosphor-icons/react';
+import styles from './styles/DateComponent.module.css'
 
 export default function DateComponent() {
     

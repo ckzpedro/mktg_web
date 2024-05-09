@@ -1,12 +1,11 @@
-import styles from './styles/CardList.module.css';
 import { X } from '@phosphor-icons/react'
+import styles from './styles/CardList.module.css';
 
 interface CardProps {
     title: string;
     quantity: string;
     image: string;
     cost: string;
-  
   }
 
 export default function CardList({ title, quantity, image, cost }: CardProps) {
@@ -21,7 +20,6 @@ export default function CardList({ title, quantity, image, cost }: CardProps) {
       <button className={styles.delete_button}>
         <X size={32} color="#74857C"/>
       </button>
-
     </div>
   )
 }

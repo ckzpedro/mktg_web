@@ -1,14 +1,17 @@
 import AddedItens from './AddedItens';
+import DateComponent from './DateComponent';
+import SelectedMarket from './SelectedMarkets';
+
 import styles from './styles/Sidebar.module.css'
-import Date from './DateComponent';
 
 export default function Sidebar() {
 
   return (
     <div className={styles.sidebar_box}>
       <h1 className={styles.sidetitle}>Sua Lista:</h1>
-      <Date />
+      <DateComponent />
       <AddedItens />
+      <SelectedMarket />
     </div>
   )
 }
