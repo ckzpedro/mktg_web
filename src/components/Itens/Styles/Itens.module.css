@@ -4,11 +4,41 @@
 
 .box {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
+    align-items: center;
     width: 25.0rem;
     height: 24.7rem;
     border-radius: 1rem;
     background: linear-gradient(180deg, #90E6A3 0%, #8BCAB3 99.99%, #75967C 100%);
+    overflow: visible;
 }
 
-.image {}
+.image {
+    position: relative;
+    top: -1.5rem
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.8rem;
+}
+
+.market {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.discont {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 0.5rem;
+}
+
+.full {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #7F7F7F;
+}

@@ -8,3 +8,9 @@
     margin-top: 3.2rem;
     margin-left: 3.2rem;
 }
+
+.itens {
+    gap: 2.4rem;
+    display: flex;
+    flex-direction: row;
+}

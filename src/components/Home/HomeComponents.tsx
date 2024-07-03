@@ -7,17 +7,24 @@ export default function HomeComponents() {
     const list = [
         {
             image: 'https://placehold.co/160x230',
-            title: 'string',
-            market: 'string',
-            pricediscont: 'string',
-            pricefull: 'string'
+            title: 'Leite UHT integral 1L Betânia ',
+            market: 'Mercado Vida Longa',
+            pricediscont: 'R$:3,50',
+            pricefull: 'R$:4,05'
         },
         {
             image: 'https://placehold.co/160x230',
-            title: 'string',
-            market: 'string',
-            pricediscont: 'string',
-            pricefull: 'string'
+            title: 'Arroz Tio João tipo 1 - 1 Kg',
+            market: 'Mercado Boníssima',
+            pricediscont: 'R$:6,80',
+            pricefull: 'R$:7,49'
+        },
+        {
+            image: 'https://placehold.co/160x230',
+            title: 'Feijão Carioca Kicaldo - 1kg',
+            market: 'Mercado Cogumelos',
+            pricediscont: 'R$:7,23',
+            pricefull: 'R$:8,49'
         }
     ]
 
@@ -27,15 +34,17 @@ export default function HomeComponents() {
             <Title
                 title='MAIS PROCURADOS'
             />
-            {list.map((item) => (
-                <Itens
-                    image={item.image}
-                    title={item.title}
-                    market={item.market}
-                    pricediscont={item.pricediscont}
-                    pricefull={item.pricefull}
-                />
-            ))}
+            <div className={styles.itens}>
+                {list.map((item) => (
+                    <Itens
+                        image={item.image}
+                        title={item.title}
+                        market={item.market}
+                        pricediscont={item.pricediscont}
+                        pricefull={item.pricefull}
+                    />
+                ))}
+            </div>
             <Title
                 title='Mais Produtos:'
             />
