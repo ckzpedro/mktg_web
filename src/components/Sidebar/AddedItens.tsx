@@ -1,7 +1,7 @@
 import { Minus, Plus } from "@phosphor-icons/react";
 import { useState } from "react";
 import CardList from "./CardList";
-import listImage from "../img/Checklist-bro.svg"
+import listImage from "../../img/Checklist-bro.svg"
 import styles from "./styles/AddedItens.module.css";
 
 export default function AddedItens() {
@@ -67,7 +67,7 @@ export default function AddedItens() {
       )}
       {!showItems && (
         <div className={styles.placeholder}>
-          <img className={styles.image} src={listImage} />
+          <img src={listImage} className={styles.image} />
           <p className={styles.image_text}>Os Itens da sua lista estão aqui!</p>
           <p className={styles.image_text}>Clique no <Plus size={20} /> para ver o que você já tem adicionado</p>
         </div>
