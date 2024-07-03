@@ -1,4 +1,4 @@
-import { Minus, Plus} from "@phosphor-icons/react";
+import { Minus, Plus } from "@phosphor-icons/react";
 import { useState } from "react";
 import CardList from "./CardList";
 import listImage from "../img/Checklist-bro.svg"
@@ -6,6 +6,7 @@ import styles from "./styles/AddedItens.module.css";
 
 export default function AddedItens() {
   const [showItems, setShowItems] = useState(false);
+
 
   const list = [
     {
@@ -46,11 +47,11 @@ export default function AddedItens() {
       <div className={styles.itensbox_title_box}>
         <h1 className={styles.itensbox_title}>Itens adicionados </h1>
         <button
-            className={styles.button}
-            onClick={() => setShowItems(!showItems)}
-          >
-            {showItems ? <Minus size={27} /> : <Plus size={27} />}
-          </button>
+          className={styles.button}
+          onClick={() => setShowItems(!showItems)}
+        >
+          {showItems ? <Minus size={27} /> : <Plus size={27} />}
+        </button>
       </div>
       {showItems && (
         <ul className={styles.list}>
@@ -66,9 +67,9 @@ export default function AddedItens() {
       )}
       {!showItems && (
         <div className={styles.placeholder}>
-          <img className={styles.image} src={listImage}/>
+          <img className={styles.image} src={listImage} />
           <p className={styles.image_text}>Os Itens da sua lista estão aqui!</p>
-          <p className={styles.image_text}>Clique no <Plus size={20}/> para ver o que você já tem adicionado</p>
+          <p className={styles.image_text}>Clique no <Plus size={20} /> para ver o que você já tem adicionado</p>
         </div>
       )}
     </div>
