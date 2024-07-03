@@ -1,0 +1,36 @@
+.card {
+    border-radius: 25px;
+    padding: 16px;
+    background-image: linear-gradient(to right, #E3FDE9 0%, #DFF9E5 37%, #D0E0D4 100%);
+    height: 68px;
+    width: 353px;
+    margin-bottom: 40px;
+    display: flex; 
+    justify-content: start; 
+    align-items: center;
+}
+
+.card_content{
+    margin-left: 13px;
+}
+
+.card_title {
+    font-size: 1.5rem;
+    font-weight:bolder;
+}
+
+.card_values {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.delete_button{
+    margin-left: 105px;
+    cursor: pointer;
+    transition-duration: 1s;
+    background-color: transparent;
+}
+
+.delete_button:hover{
+    transform: scale(1.20);
+}

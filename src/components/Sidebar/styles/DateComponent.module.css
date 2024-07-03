@@ -1,0 +1,12 @@
+.date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.calendar{
+    margin-left: 16px;
+}
