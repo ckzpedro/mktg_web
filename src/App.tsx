@@ -7,7 +7,9 @@ export default function App() {
   return (
     <>
       <Header />
-      <Sidebar />
+      <main>
+        <Sidebar />
+      </main>
       <Outlet />
     </>
   )

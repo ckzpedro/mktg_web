@@ -10,7 +10,14 @@
 }
 
 .itens {
-    gap: 2.4rem;
+    gap: 3.2rem;
     display: flex;
     flex-direction: row;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 39rem;
 }

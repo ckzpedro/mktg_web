@@ -1,0 +1,14 @@
+.holder {
+    height: 44.1rem;
+    width: 86.8rem;
+    background-color: rgb(145, 198, 198);
+    margin-left: 3.2rem;
+    margin-top: 3.2rem;
+    overflow: visible;
+}
+
+.image {
+    position: relative;
+    top: -1.5rem;
+    left: 4rem;
+}

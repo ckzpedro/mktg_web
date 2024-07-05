@@ -18,6 +18,10 @@
     top: -1.5rem
 }
 
+.texts {
+    position: absolute;
+}
+
 .title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -41,4 +45,47 @@
     font-weight: 500;
     text-decoration: line-through;
     color: #7F7F7F;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.2rem;
+}
+
+.button {
+    margin-top: 0.8rem;
+    cursor: pointer;
+    background-color: #C4EBCC;
+    width: 25rem;
+    height: 3.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button2 {
+    height: 2.6rem;
+    width: 10rem;
+    position: relative;
+    margin-left: 15rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    gap: 1.7rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4EBCC;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.minusandplus {
+    background-color: #C4EBCC;
+    cursor: pointer;
 }
